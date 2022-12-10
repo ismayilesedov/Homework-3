@@ -7,7 +7,7 @@ namespace Homework_3
         static void Main(string[] args)
         {           
             var today = DateTime.Today;
-            DateTime birthdate = new DateTime(1990, 2, 28);
+            DateTime birthdate = new DateTime(2004, 2, 17);
             var age=today.Year-birthdate.Year;
             Console.WriteLine("Yash:"+age);          
         }
